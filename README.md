@@ -13,3 +13,12 @@ Define forward prop(?)
 Define backprop(?)
 Define cost function(?)
 ...(Add more here)
+
+# Current data distribution
+| #data | NORMAL | PNEUMONIA |
+|-------|--------|-----------|
+| TRAIN | 1341   | 3875      |
+| TEST  | 234    | 390       |
+| VAL   | 8      | 8         |
+
+*Data biased*: more pneumonia examples. VAL set has only 8 examples.
