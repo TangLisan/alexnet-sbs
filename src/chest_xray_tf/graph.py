@@ -1,2 +1,1 @@
-import cv2
-import tensorflow
+# The creation of graph
