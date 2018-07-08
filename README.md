@@ -15,10 +15,11 @@ Define cost function(?)
 ...(Add more here)
 
 # Current data distribution
-| #data | NORMAL | PNEUMONIA |
-|-------|--------|-----------|
-| TRAIN | 1341   | 3875      |
-| TEST  | 234    | 390       |
-| VAL   | 8      | 8         |
+| #data |    NORMAL    |  PNEUMONIA   |
+|-------|--------------|--------------|
+| TRAIN | 1341 (84.7%) | 3875 (90.7%) |
+| TEST  |  234 (14.8%) |  390 ( 9.1%) |
+|  VAL  |    8 ( 0.5%) |    8 ( 0.2%) |
+| TOTAL | 1583 (100.%) | 4273 (100.%) |
 
-*Data biased*: more pneumonia examples. VAL set has only 8 examples.
+Current data distribution biased.
