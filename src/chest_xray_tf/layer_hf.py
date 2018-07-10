@@ -1,8 +1,7 @@
 import tensorflow as tf
 
-# All the functions that help creat layers should be define here
+# All the functions that help create layers should be defined here
 # The actual creation of each layer should be done in layer.py
-
 
 def conv2d(x, w, strides=[1, 1, 1, 1], padding='SAME'):
     return tf.nn.conv2d(x, w, strides=strides, padding=padding)
